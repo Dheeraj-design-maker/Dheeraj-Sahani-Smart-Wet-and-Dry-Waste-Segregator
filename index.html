@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Waste Segregator | My Portfolio</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Arial, sans-serif; }
+        body { background-color: #f0f4f1; color: #333; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #1b5e20, #4caf50); color: white; text-align: center; padding: 60px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+        .container { max-width: 900px; margin: -40px auto 40px; padding: 0 20px; }
+        .card { background: white; border-radius: 15px; padding: 30px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        h2 { color: #1b5e20; border-bottom: 3px solid #81c784; padding-bottom: 8px; margin-bottom: 20px; font-size: 1.6rem; }
+        .profile-section { display: flex; align-items: center; gap: 30px; flex-wrap: wrap; }
+        .profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 5px solid #81c784; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .profile-text { flex: 1; min-width: 250px; }
+        .badge { display: inline-block; background: #e8f5e9; color: #2e7d32; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: bold; margin-bottom: 10px; }
+        .component-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 15px; }
+        .component-item { background: #f9f9f9; padding: 12px; border-left: 4px solid #4caf50; border-radius: 4px; font-weight: 500; }
+        footer { text-align: center; padding: 20px; color: #666; font-size: 0.9rem; border-top: 1px solid #ddd; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Smart Wet & Dry Waste Segregator</h1>
+        <p>An Innovative IoT Science Project for Cleaner India</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- About Me / Profile Section -->
+        <div class="card">
+            <h2>About Me (मेरे बारे में)</h2>
+            <div class="profile-section">
+                <!-- यहाँ अपनी फोटो का नाम बदलें -->
+                <img src="my-photo.jpg" alt="My Profile Picture" class="profile-img">
+                <div class="profile-text">
+                    <span class="badge">📍 Gorakhpur, Uttar Pradesh</span>
+                    <p>नमस्ते! मैं गोरखपुर का रहने वाला हूँ। मुझे नई टेक्नोलॉजी, इलेक्ट्रॉनिक्स और समाज के लिए उपयोगी प्रोजेक्ट्स बनाने का बहुत शौक है। यह वेबसाइट मेरे द्वारा बनाए गए ऑटोमैटिक कचरा प्रबंधन प्रोजेक्ट को प्रदर्शित करती है।</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Details Section -->
+        <div class="card">
+            <h2>प्रोजेक्ट कैसे काम करता है?</h2>
+            <p>यह एक <strong>Smart Waste Segregator</strong> प्रोजेक्ट है जो गीले और सूखे कचरे को अलग-अलग करने की समस्या का आधुनिक समाधान है।</p>
+            <p style="margin-top: 10px;">जैसे ही कचरा लेने वाली गाड़ी गाना बजाते हुए आती है, लोग उसमें कचरा डालते हैं। गाड़ी में लगे एडवांस सेंसर तुरंत पहचान लेते हैं कि कचरा गीला है या सूखा, और फिर रोबोटिक मैकेनिज्म (Servo Motor) की मदद से उसे सही बॉक्स में डाल देते हैं।</p>
+        </div>
+
+        <!-- Components Section -->
+        <div class="card">
+            <h2>प्रोजेक्ट के मुख्य कंपोनेंट्स</h2>
+            <div class="component-list">
+                <div class="component-item">🤖 Arduino Uno</div>
+                <div class="component-item">💧 Moisture Sensor</div>
+                <div class="component-item">⚙️ Servo Motor</div>
+                <div class="component-item">🎵 Sound/Music Module</div>
+                <div class="component-item">🚗 Smart Vehicle Chassis</div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Designed with ❤️ by Me | Live from Gorakhpur</p>
+    </footer>
+
+</body>
+</html>
